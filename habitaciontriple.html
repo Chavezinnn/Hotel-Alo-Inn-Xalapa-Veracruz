@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Habitación | Hotel Alo Inn</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="hotel-theme">
+
+    <header class="navbar">
+        <div class="nav-container"> 
+            <div class="logo">Hotel <span>ALÓ INN</span></div>
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="index.html#habitaciones">Habitaciones</a>
+                <a href="index.html#servicios">Servicios</a>
+                <a href="index.html#contacto">Contacto</a>
+            </nav>
+            <a href="index.html#habitaciones" class="nav-btn">Volver</a>
+        </div>
+    </header>
+
+    <main class="project-detail-container">
+        
+        <div class="project-header">
+            <h1 id="room-title">Habitacion Triple</h1>
+            <div class="project-breadcrumbs">Home / Habitaciones / <span id="room-subtitle">Detalle</span></div>
+        </div>
+
+        <section class="slider-wrapper">
+           <button class="slide-arrow" id="slide-arrow-prev" onclick="changeSlide(-1)">&#10094;</button>
+
+<button class="slide-arrow" id="slide-arrow-next" onclick="changeSlide(1)">&#10095;</button>
+            
+            <div class="slider-main-track">
+                <img src="" id="active-slide-img" alt="Vista Habitación">
+            </div>
+
+            <div class="slider-dots" id="slider-dots-container"></div>
+        </section>
+
+        <section class="project-meta-grid">
+            
+            <div class="meta-column description-box">
+                <h2>DESCRIPCIÓN</h2>
+                <p id="room-description">
+                    Cargando la descripción detallada de los espacios confortables y servicios incluidos para tu descanso ideal en Xalapa...
+                </p>
+                
+                <div class="characteristics-section">
+                    <h3>Características</h3>
+                    <ul id="room-features-list">
+                        </ul>
+                </div>
+            </div>
+
+            <div class="meta-column quick-info-box">
+                <h2>INFO RÁPIDA</h2>
+                
+                <div class="info-row">
+                    <span class="info-label">PRECIO POR NOCHE</span>
+                    <span class="info-value price-highlight" id="room-price">$980 MXN</span>
+                </div>
+                
+                <div class="info-row">
+                    <span class="info-label">CAPACIDAD</span>
+                    <span class="info-value" id="room-capacity">3-6 Personas</span>
+                </div>
+
+                <div class="info-row">
+                    <span class="info-label">CATEGORÍA</span>
+                    <span class="info-value">Hospedaje Confort</span>
+                </div>
+
+                <div class="info-row">
+                    <span class="info-label">SERVICIOS INCLUIDOS</span>
+                    <span class="info-value">Wi-Fi, Agua Caliente, TV, Café de cortesía</span>
+                </div>
+
+                <a href="https://wa.me/522282358579?text=Hola%2C%20buen%20d%C3%ADa.%20Me%20gustar%C3%ADa%20reservar%20una%20habitaci%C3%B3n%20TRIPLE%20en%20el%20Hotel%20Alo%20Inn.%20%C2%BFMe%20pueden%20dar%20disponibilidad%20y%20precio%3F" id="wa-reserve-btn" target="_blank" class="action-quote-btn">
+                    COTIZAR / RESERVAR
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer-dark">
+        © 2026 Hotel Alo Inn. Todos los derechos reservados.
+    </footer>
+
+ <script src="main.js" defer></script>
+</body>
+</html>
